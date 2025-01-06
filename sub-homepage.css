@@ -1,51 +1,118 @@
-
-
 .wrapper{
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+display:grid;
+column-gap:  gap 20px;
+
 
 }
+
+
+
 
 .header{
- background-color:#0c7a2a;
- color:white;
- width: 100%;
- height:20%;
- margin-bottom: 0%;
- padding-bottom: 0%;
-}
-
-.nav{
-color:white;
-background-color: #545454;
-font: size 14px;
-width:100%;
-height:10%;
-
-}
-
-.main{
-width:100%;
-height:50%;
-}
-
-.article{
-width: 70%;
-height:75px;
-color:white;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 14px;
+   background-color:#0c7a2a;
+   float 
 }
 button {
-    width: 25%;
-    height: 100px;
-    float: left;
-    background-color: #154723;
-    text-align: center;
-    cursor: pointer;
-    border: none;
-    transition: all 0.5s;
- }
- button:hover {
-    background-color: #ffffff;
-    border-color: #154723;
- }
+   width: 25%;
+   height: 100px;
+   float: left;
+   background-color: rgba(255, 255, 255, 0);
+   text-align: center;
+   cursor: pointer;
+   border: none rgba(255, 255, 255, 0); 
+   transition: all 0.5s;
+}
+button:hover {
+   background-color: #ffffff;
+}
+nav {
+   width: 100%;
+   height: 200px;
+   border: 2px solid red;
+   background-color: rgba(255, 255, 255, 0)
+}
+nav:hover {
+   background-color: red;
+}
+
+.nav1{
+   width: 100%;
+   height: 200px;
+}
+
+
+
+.side-nav{
+   border:2px solid red;
+      float:left;
+      height:713px;
+      width:500px;
+      
+   }
+
+   .nav2{
+      float:left;
+      height:713px;
+      width:500px;
+   }
+
+
+
+main{
+border: 2px solid red;
+float:right;
+width:70px;
+height:60%;
+}
+
+.maindiv{
+   float:right;
+   width:75%;
+   height:60%;
+
+}
+
+
+.article1{
+float:right;
+width:75%;
+height:60%;
+}
+
+.divarticle1{
+width:75%;
+height:60%;
+}
+
+
+.article2{
+float:right;
+width:75%;
+height:60%;
+
+}
+
+
+.divarticle2{
+   width:75%;
+   height:60%
+}
+
+
+
+.footer {
+   width: 100%;
+   height: 100px;
+   border: 2px solid red;
+   bottom:0px;
+   float
+}
+
+.footerdiv{
+   width: 100%;
+   height: 100px;
+}
