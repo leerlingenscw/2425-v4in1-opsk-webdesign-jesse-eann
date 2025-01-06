@@ -22,25 +22,32 @@
 }
 .header{
    background-color:#0c7a2a
+   border: 2px solid red;
+
 }
 button {
-   width: 25%;
+   width: 15%;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 20px;
    height: 100px;
    float: left;
-   background-color: rgba(255, 255, 255, 0);
    text-align: center;
+   background-color: rgba(255, 255, 255, 0);
    cursor: pointer;
-   border: none rgba(255, 255, 255, 0); 
+   border: none rgba(255, 255, 255, 0);  
    transition: all 0.5s;
 }
 button:hover {
-   background-color: #ffffff;
+   font-size: 30px;
+   color: red;
 }
 nav {
    width: 100%;
    height: 200px;
    border: 2px solid red;
-   background-color: rgba(255, 255, 255, 0)
+   background-color: rgba(255, 255, 255, 0);
+   transition: 0.5s all;
 }
 nav:hover {
    background-color: red;
@@ -48,6 +55,5 @@ nav:hover {
 footer {
    width: 100%;
    height: 100px;
-   float: ;
    border: 2px solid red;
 }
