@@ -17,11 +17,15 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+.sexy_balkje {
+   max-width: 100%;
+   height: 10px;
+   background-color: green;
+}
 * {
    background-color: white;
 }
 .header{
-   background-color:#0c7a2a
    border: 2px solid red;
 
 }
@@ -41,6 +45,7 @@ button {
 button:hover {
    font-size: 30px;
    color: white;
+   
 }
 nav {
    width: 100%;
