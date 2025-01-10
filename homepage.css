@@ -17,45 +17,64 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
-.sexy_balkje {
-   max-width: 100%;
-   height: 10px;
-   background-color: green;
-}
 * {
    background-color: white;
+   margin: 0;
+   box-sizing: border-box;
 }
 .header{
    border: 2px solid red;
-
+   float
+}
+.nav {
+   height: 200px;
 }
 button {
-   width: 15%;
-   margin-left: 5%;
-   margin-right: 5%;
+   width: 20%;
+   margin-left: 2.5%;
+   margin-right: 2.5%;
    font-size: 20px;
-   height: 100px;
+   height: 60px;
    float: left;
    text-align: center;
    background-color: rgba(255, 255, 255, 0);
    cursor: pointer;
    border: none rgba(255, 255, 255, 0);  
    transition: all 0.5s;
+   display: block;
+   justify-content: center;
+   position: relative;
+}
+button::after {
+   content: "";
+   position: absolute;
+   height: 5px;
+   left: 0;
+   bottom: 0;
+   width: 0;
+   background-color: lightgreen;
+   transition: width 0.2s;
+}
+button:hover:after {
+   width: 100%;
 }
 button:hover {
    font-size: 30px;
-   color: white;
+   color: black;
    
 }
 nav {
    width: 100%;
-   height: 200px;
+   height: 400px;
    border: 2px solid red;
    background-color: rgba(255, 255, 255, 0);
    transition: 0.5s all;
+   float: left;
+   background-image: ;
 }
 nav:hover {
-   background-color: red;
+   background-color: yellow;
+   color: black;
 }
 footer {
    width: 100%;
