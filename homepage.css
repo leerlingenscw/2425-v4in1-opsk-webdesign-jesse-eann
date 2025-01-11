@@ -1,16 +1,45 @@
+/************************* DEBUG SETTINGS *************************/
 
+/* Settings to help find errors in your css
+   uncomment to enable */
+
+/* Add dotted line around all boxes.
+   This makes size of boxes visible.
+   Warning 1: this settings may change your layout.
+   Warning 2: keep the * as selector for all tags when uncommenting. */
+/*  * {border: 1px dotted black;}   */
+  
+/* Add semi-transparant dark background to all boxes
+   The more boxes are on top of eachother the darker tghe background color
+   Warning: keep the * as selector for all tags when uncommenting. */
+/*  * {background-color: rgba(0,0,0,5%);}  */
+
+/************************* YOUR SETTINGS *************************/
+
+/* add your css here, feel free to use comments and order them logically for better readability */
 * {
-   background-color: white;
    margin: 0;
    box-sizing: border-box;
 }
-.header{
+
+.wrapper {
+   background: url(images/security.jpeg) no-repeat center top;
+}
+
+.header {
    border: 2px solid red;
-   float
+   float: left;
 }
+
+html {
+   background: url(images/cybersecurity-essentials_upscaled.jpeg) no-repeat center top;
+   background-size: 100%;
+}
+
 .nav {
-   height: 200px;
+   height: 100px;
 }
+
 button {
    width: 20%;
    margin-left: 2.5%;
@@ -21,12 +50,13 @@ button {
    text-align: center;
    background-color: rgba(255, 255, 255, 0);
    cursor: pointer;
-   border: none rgba(255, 255, 255, 0);  
+   border: none rgba(255, 255, 255, 0);
    transition: all 0.5s;
    display: block;
    justify-content: center;
    position: relative;
 }
+
 button::after {
    content: "";
    position: absolute;
@@ -35,29 +65,33 @@ button::after {
    bottom: 0;
    width: 0;
    background-color: lightgreen;
-   transition: width 0.2s;
+   transition: 0.2s width;
 }
+
 button:hover:after {
    width: 100%;
 }
+
 button:hover {
-   font-size: 30px;
+   font-size: 25px;
    color: black;
-   
+
 }
+
 nav {
    width: 100%;
    height: 400px;
    border: 2px solid red;
    background-color: rgba(255, 255, 255, 0);
    transition: 0.5s all;
-   float: left;
-   background-image: ;
 }
+
 nav:hover {
    background-color: yellow;
    color: black;
+   background-image: none;
 }
+
 footer {
    width: 100%;
    height: 100px;
