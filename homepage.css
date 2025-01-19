@@ -8,7 +8,7 @@
    Warning 1: this settings may change your layout.
    Warning 2: keep the * as selector for all tags when uncommenting. */
 /*  * {border: 1px dotted black;}   */
-  
+
 /* Add semi-transparant dark background to all boxes
    The more boxes are on top of eachother the darker tghe background color
    Warning: keep the * as selector for all tags when uncommenting. */
@@ -32,11 +32,37 @@
 }
 
 article {
+   border: 2px solid blue;
+   background-color: #70E08E;
+   border-radius: 30px;
+   text-align: center;
+   align-content: center;
+   grid-column-start: 2;
+   grid-column-end: 3;
+}
 
+article p {
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+img {
+   border: 2px solid blue;
+   grid-column-start: 2;
+   grid-column-end: 3;
+   align-content: center;
 }
 
 main {
    border: 2px solid red;
+   height: 740px;
+   display: grid;
+   grid-template-columns: 25% auto 25%;
+   grid-template-rows: 45% 45%;
+   row-gap: 10%;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   
 }
 
 html {
@@ -108,4 +134,7 @@ footer {
    width: 100%;
    height: 100px;
    border: 2px solid red;
+   background-color: #d9d9d9;
+   text-align: center;
+   align-content: center;
 }
