@@ -1,0 +1,18 @@
+header {
+    border: 2px red solid;
+    height: 300px;
+}
+
+nav {
+    border: 2px red solid;
+    height: 50px;
+}
+main {
+    border: 2px red solid;
+    height: 700px;
+}
+
+footer {
+    border: 2px red solid;
+    height: 100px;
+}
