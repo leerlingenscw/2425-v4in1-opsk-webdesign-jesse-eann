@@ -23,7 +23,6 @@
 }
 
 .header {
-   border: 2px solid red;
    height: 740px;
    width: 100%;
    align-items: center;
@@ -32,7 +31,6 @@
 }
 
 article {
-   border: 2px solid blue;
    background-color: #70E08E;
    border-radius: 30px;
    text-align: center;
@@ -47,14 +45,15 @@ article p {
 }
 
 img {
-   border: 2px solid blue;
+   border-radius: 30px;
    grid-column-start: 2;
    grid-column-end: 3;
    align-content: center;
+   margin: auto;
+   height: 297px;
 }
 
 main {
-   border: 2px solid red;
    height: 740px;
    display: grid;
    grid-template-columns: 25% auto 25%;
@@ -62,6 +61,7 @@ main {
    row-gap: 10%;
    padding-top: 40px;
    padding-bottom: 40px;
+   background-color: #ffffff;
    
 }
 
@@ -80,9 +80,9 @@ button {
    text-align: center;
    padding-top: 17px;
    padding-bottom: 17px;
-   background-color: rgba(255, 255, 255, 0);
+   background-color:  rgba(255, 255, 255, 0);
    cursor: pointer;
-   border: 2px solid red;
+   border: none;
    transition: all 0.5s;
    display: flex;
    justify-content: center;
@@ -103,6 +103,7 @@ button::after {
 
 button:hover:after {
    width: 100%;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
@@ -114,7 +115,6 @@ button:hover {
 nav {
    width: 100%;
    height: 200px;
-   border: 2px solid red;
    background-color: rgba(255, 255, 255, 0);
    transition: 0.5s all;
    color: white;
@@ -124,6 +124,7 @@ nav {
 nav:hover {
    background-color: #154723;
    background-image: none;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 nav:hover button {
@@ -133,7 +134,6 @@ nav:hover button {
 footer {
    width: 100%;
    height: 100px;
-   border: 2px solid red;
    background-color: #d9d9d9;
    text-align: center;
    align-content: center;
