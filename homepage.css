@@ -70,66 +70,7 @@ html {
    background-size: 100%;
 }
 
-button {
-   width: 20%;
-   margin-left: 2.5%;
-   margin-right: 2.5%;
-   font-size: 20px;
-   height: 60px;
-   float: left;
-   text-align: center;
-   padding-top: 17px;
-   padding-bottom: 17px;
-   background-color:  rgba(255, 255, 255, 0);
-   cursor: pointer;
-   border: none;
-   transition: all 0.5s;
-   display: flex;
-   justify-content: center;
-   position: relative;
 
-}
-
-button::after {
-   content: "";
-   position: absolute;
-   height: 5px;
-   left: 0;
-   bottom: 0;
-   width: 0;
-   background-color: #70E08E;
-   transition: 0.2s width;
-}
-
-button:hover:after {
-   width: 100%;
-   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-}
-
-button:hover {
-   font-size: 25px;
-   color: black;
-
-}
-
-nav {
-   width: 100%;
-   height: 200px;
-   background-color: rgba(255, 255, 255, 0);
-   transition: 0.5s all;
-   color: white;
-   padding: 70px 0;
-}
-
-nav:hover {
-   background-color: #154723;
-   background-image: none;
-   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-}
-
-nav:hover button {
-   color: white;
-}
 
 footer {
    width: 100%;

@@ -1,15 +1,29 @@
+
+
+
+*
+{
+margin-bottom: 0%;
+margin-left: 0%;
+margin-right: 0%;
+}
+
+
+
+
 .container {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
    display: grid;
    grid-template-areas:
      "header header"
      "nav2 nav2"
      "nav main"
      "footer footer";
-   grid-template-columns: 1fr 3fr;
-   gap: 5px;
-   background-color: #0d952c;
-   padding: 5px;
+   grid-template-columns: 1fr 4fr;
+   gap: 2px;
+   background-color: #1a6813;
  }
+
  .container > div {
    background-color: rgba(255, 255, 255, 0.8);
    padding: 10px;
@@ -17,12 +31,12 @@
  .container > div.header {
    grid-area: header;
    text-align: center;
+   background-color: #70E08E;
  }
 
 .container > div.nav2{
    grid-area:nav2;
 }
-
 
  .container > div.nav{ 
    grid-area:nav;
@@ -32,4 +46,55 @@
  }
  .container > div.footer {
    grid-area: footer;
+ }
+
+
+
+ .nav2{ 
+ button {
+   width: 20%;
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   font-size: 20px;
+   height: 60px;
+   float: left;
+   text-align: center;
+   padding-top: 17px;
+   padding-bottom: 17px;
+   background-color:  rgba(255, 255, 255, 0);
+   cursor: pointer;
+   border: none;
+   transition: all 0.5s;
+   display: flex;
+   justify-content: center;
+   position: relative;
+
+}
+
+button::after {
+   content: "";
+   position: absolute;
+   height: 5px;
+   left: 0;
+   bottom: 0;
+   width: 0;
+   background-color: #70E08E;
+   transition: 0.2s width;
+}
+
+button:hover:after {
+   width: 100%;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+   font-size: 25px;
+   color: black;
+}
+
+nav {
+
+   background-color: rgba(255, 255, 255, 0);
+   transition: 0.5s all;
+}
  }
