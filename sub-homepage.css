@@ -12,7 +12,6 @@ margin-right: 0%;
 
 
 .container {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
    display: grid;
    grid-template-areas:
      "header header"
