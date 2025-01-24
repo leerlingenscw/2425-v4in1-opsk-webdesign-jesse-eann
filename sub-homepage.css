@@ -34,12 +34,12 @@ color:#ffffff;
 
 }
 
-.container>div.nav2 {
+.container>div.nav_boven {
   grid-area: nav2;
   background-color: #545454;
 }
 
-.container>div.nav {
+.container>div.nav_zijbalk {
   grid-area: nav;
   background-color: #a6a6a6;
   border-color: black;
@@ -57,8 +57,8 @@ color:#ffffff;
   font-size: 20px;
 }
 
-.nav {
-  .nav1 {
+.nav_zijbalk {
+  .nav_1 {
     margin-bottom: 40px;
     margin-top: 40px;
   }
