@@ -22,7 +22,6 @@ nav {
 }
 
 main {
-    height: 700px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 30px;
@@ -51,6 +50,8 @@ footer {
     background-color: #d9d9d9;
     text-align: center;
     align-content: center;
+    width: 100%;
+    bottom: 0;
 }
 
 button {
@@ -74,7 +75,6 @@ button:hover {
 }
 
 div {
-    
     margin: 10px;
     margin-left: 20px;
     margin-right: 20px;
