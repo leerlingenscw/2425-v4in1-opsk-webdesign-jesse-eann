@@ -13,27 +13,35 @@
   grid-template-columns: 1fr 4fr;
   gap: 2px;
   background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container>div {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px;
 }
 
 .container>div.header {
   grid-area: header;
   text-align: center;
-  background-color: #70E08E;
+  background-color: #0c7a2a;
+  height:300px;
+  
+  .header_text{
+padding-top: 150px;
+color:#ffffff;
+
+  }
+
 }
 
 .container>div.nav2 {
   grid-area: nav2;
-  background-color: rgb(78, 244, 117)
+  background-color: #545454;
 }
 
 .container>div.nav {
   grid-area: nav;
-  background-color: rgb(78, 244, 117);
+  background-color: #a6a6a6;
   border-color: black;
 
 }
@@ -45,23 +53,22 @@
 
 .container>div.footer {
   grid-area: footer;
-  background-color: #1a6813;
-  font-size: 15px;
+  background-color: #d9d9d9;
+  font-size: 20px;
 }
 
 .nav {
-  .nav_betrouwbaarheid {
-    margin-bottom: 40px;
-    margin-top: 40px;
-    border-color: #1a6813;
-  }
-
-  .nav_integriteit {
+  .nav1 {
     margin-bottom: 40px;
     margin-top: 40px;
   }
 
-  .nav_beschikbaarheid {
+  .nav_2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .nav_3 {
     margin-top: 40px;
     margin-bottom: 40px;
   }
@@ -107,7 +114,7 @@
   }
 }
 
-.nav2 {
+.nav_boven {
   button {
     width: 20%;
     margin-left: 2.5%;
@@ -125,6 +132,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    color:white;
 
   }
 
@@ -146,7 +154,7 @@
 
   button:hover {
     font-size: 25px;
-    color: black;
+    color: white;
   }
 
   nav {
@@ -156,27 +164,55 @@
   }
 }
 
-.main{
+.main {
 
-.article1 {
-  grid-area:"article1";
-  text-align: center;
-  font-size: 20px;
-  padding: 0%;
-  width: auto;
-  height: 500px;
+  .article1 {
+    text-align: center;
+    font-size: 20px;
+    padding-top:20px;
+    margin-top: 40px;
+    margin-bottom:20px;
+    margin-right:200px;
+    margin-left:200px;
+    width: auto;
+    height: auto;
+    background-color: #70e08e;
+    border-radius:30px;
+  }
+
+  .article1 p {
+padding:30px;
+  }
+
+  .img1 {
+    display:block;
+    margin:auto;
+    width:35%;
+  }
+
+
+  .article2 {
+    
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right:200px;
+    margin-left:200px;
+    border-radius:30px;
+    width: auto;
+    background-color: #70e08e;
+  }
+
+
+  .article2 p {
+    padding:30px;
+  }
+
+
 }
 
-.img1{
-width:20%;
-
-
-
-}
-
-
-.article2 {
-  text-align: center;
-  font-size: 20px;
-}
+.footer{
+  padding-top:10px;
+  padding-bottom:10px;
 }
