@@ -28,13 +28,6 @@ main {
     margin: 30px;
 }
 
-footer {
-    height: 100px;
-    background-color: #d9d9d9;
-    text-align: center;
-    align-content: center;
-}
-
 article {
     text-align: center;
     align-content: center;
@@ -51,6 +44,13 @@ article p {
 img {
     align-content: center;
     margin: 10px;
+}
+
+footer {
+    height: 100px;
+    background-color: #d9d9d9;
+    text-align: center;
+    align-content: center;
 }
 
 button {
