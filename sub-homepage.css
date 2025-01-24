@@ -61,17 +61,21 @@ color:#ffffff;
   .nav_1 {
     margin-bottom: 40px;
     margin-top: 40px;
+    margin-left:20px;
   }
 
   .nav_2 {
     margin-bottom: 40px;
     margin-top: 40px;
+    margin-left:20px;
   }
 
   .nav_3 {
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left:20px;
   }
+
 
   button {
     font-size: 20px;
