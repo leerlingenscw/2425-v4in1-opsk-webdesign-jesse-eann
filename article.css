@@ -25,6 +25,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 30px;
+    column-gap: 30px;
 }
 
 article {
@@ -33,6 +34,12 @@ article {
     background-color: #70E08E;
     margin: 10px;
     border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article img{
+    width: auto;
 }
 
 article p {
@@ -43,6 +50,7 @@ article p {
 img {
     align-content: center;
     margin: 10px;
+    width: 98%;
 }
 
 footer {
