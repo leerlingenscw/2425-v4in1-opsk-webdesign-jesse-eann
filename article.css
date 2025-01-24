@@ -7,12 +7,33 @@ nav {
     border: 2px red solid;
     height: 50px;
 }
+
 main {
     border: 2px red solid;
     height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px
 }
 
 footer {
     border: 2px red solid;
     height: 100px;
+}
+
+article {
+    border: 2px red solid;
+    text-align: center;
+    align-content: center;
+    background-color: #70E08E;
+}
+
+article p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+img {
+    border: 2px red solid;
+    align-content: center;
 }
